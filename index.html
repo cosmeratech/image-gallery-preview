@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery Preview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+    <div class="gallery">
+        <div class="img-box">
+            <img src="Marie-Curie.jpg" alt="Image 1">
+        </div>
+        <div class="img-box">
+            <img src="kafka.jpg" alt="Image 2">
+        </div>
+        <div class="img-box">
+            <img src="ramanujan.jpg" alt="Image 3">
+        </div>
+        <div class="img-box">
+            <img src="dostoevsky.jpg" alt="Image 4">
+        </div>
+    </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="preview" id="preview"> <!--preview means the modal that opens up when you click on an image -->
+        <!-- <span class="close">&times;</span> -->
+        <img id="previewImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
